@@ -2,7 +2,9 @@
 name: Enhancement request
 about: Suggest an idea for this project
 title: "[OC MVP+]"
-labels: kind/enhancement
+labels:
+  - kind/enhancement
+  - product/console
 assignees: ''
 
 ---
