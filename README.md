@@ -16,18 +16,18 @@ suggestions on an ongoing basis.
 
 Anything is fair game but to make sure you are touching the key parts, here is a reference for what to test:
 
-1. Certificate management: 
+1. Certificate management: <br>
    a. Should be able to create a certificate from the settings page and from the "checking essentials" page (the "preflight-check" page).<br>
    b. Should be able to revoke a certificate that was created with Console from the settings page.<br>
-2. Wallet connection: 
+2. Wallet connection: <br>
    a. Should only prompt you to login to your wallet when you get to the "checking essentials" (pre-flight check) page and only if you are not logged into your keplr wallet.<br>
    b. Should check wallet connection AND funds (5AKT) during the pre-flight check.<br>
    c. Should be able to switch between multiple wallets and have the various screens (settings/ certs, preflight check, deployments list) reflect the state based on the active wallet.<br>
-3. Deployment List:
+3. Deployment List:<br>
    a. Should be able to view ALL deployments made using a wallet (regardless of whether they were made with Console or a different tool). The count of the deployments, the order (sorted by DSEQ, descending) and the pagination should work as expected.<br>
    b. Should be able to toggle between just active and both active and inactive deployments.<br>
    c. Should be able to click it and see details of each deployment.<br>
-4. Deployment workflow:
+4. Deployment workflow:<br>
    a. Verifying the full cycle: Deploy -> Confirm deployment -> View Deployment in List -> Update Deployment -> Confirm update -> Delete Deployment -> Confirm inactive.<br>
    b. Should be able to deploy using both pre-defined templates and the "Import SDL" function (where you can deploy with any custom SDL). NOTE that some of the omnibus templates that power the RPC nodes may be in a bad state but the deployment via Console should suceed. In this case, confirming that the events and logs show up in Console (even if the logs indicate a bad polkachu snapshot or something) is sufficient to test Console deploy.<br>
    c. For each case, changing/ modifying the configuration via the UI (by clicking into each service in the parameter editor page) should reflect the changed state in the raw SDL editor ("Edit SDL" button).<br>
