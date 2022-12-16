@@ -34,4 +34,13 @@ Anything is fair game but to provide some guidance, here are areas worth touchin
    d. App should handle update deployment and re-deployment workflows.<br>
    e. Lease details should look accurate.<br>
    f. Should be able to add additional funds to youu deployment escrow from the deployment details page.<br>
+      
+      
+# Known Issues
+    
+These are things we're aware of and plan to work on implementing/ fixing:
+1. Caching of deployment list sometimes causes the initial loading of the page to show stale information but refreshes within a few seconds (for example a new deployment may not show up in the active list as soon as you navigate to it but shows up in a few seconds on a refresh)
+2. Help is missing and is intended to be added soon.
+3. Using an authorized wallet for deployments is missing and is to be added soon.
+4. Some SDLs for node deployments aren't working (because the Omnibus packages need to be updated following mainnet-4 upgrade) so while these deploy fine in Console they may not sping up the node successfully
    
