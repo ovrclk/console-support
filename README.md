@@ -28,7 +28,7 @@ Anything is fair game but to provide some guidance, here are areas worth touchin
    b. Should be able to toggle between just active and both active and inactive deployments.<br>
    c. Should be able to click it and see details of each deployment.<p>
 4. Deployment workflow:<br>
-   a. Verifying the full cycle: Deploy -> Confirm deployment -> View Deployment in List -> Update Deployment -> Confirm update -> Delete Deployment -> Confirm inactive.<br>8
+   a. Verifying the full cycle: Deploy -> Confirm deployment -> View Deployment in List -> Update Deployment -> Confirm update -> Delete Deployment -> Confirm inactive.<br>
    b. Should be able to deploy using both pre-defined templates and the "Import SDL" function (where you can deploy with any custom SDL). *NOTE* that some of the omnibus templates that power the RPC nodes may be in a bad state but the deployment via Console should suceed. In this case, confirming that the events and logs show up in Console (even if the logs indicate a bad polkachu snapshot or something) is sufficient to test Console deploy.<br>
    c. For each case, changing/ modifying the configuration via the UI (by clicking into each service in the parameter editor page) should reflect the changed state in the raw SDL editor ("Edit SDL" button).<br>
    d. App should handle update deployment and re-deployment workflows.<br>
