@@ -1,6 +1,6 @@
 # Overclock Console Support Page
 
-Thank you for using the Overclock Console!
+Thank you for using Akash Console!
 
 If you have issues to report or features to request,
 please enter them [here](https://github.com/ovrclk/console-support/issues/new/choose).
@@ -14,7 +14,7 @@ suggestions on an ongoing basis.
 
 # What to test
 
-Anything is fair game but to make sure you are touching the key parts, here is a reference for what to test:
+Anything is fair game but to provide some guidance, here are areas worth touching on:
 
 1. Certificate management: <br>
    a. Should be able to create a certificate from the settings page and from the "checking essentials" page (the "preflight-check" page).<br>
